@@ -1,5 +1,7 @@
 import time 
 import random
+print("START?")
+start = input("Yes or no.")
 print("Hello!")
 time.sleep(2)
 print("Welcome to Project Parts, the game where you help AT&T fix their satellites!")
@@ -37,28 +39,19 @@ def TRIVA():
             time.sleep(0.5)
             print("You found a part, now you can repair the ship!!")
             print("You return to earth, AND FINALLY GET YOUR PAYCHECK!!! And then you see a pink slip reading 'You have been fired for ' Being bad at repairs, and not repairing the ship fully.' You sob. ")
-            Conculsion()
         else:
-            Conculsion()
             print("You found no parts. You return home and see the pink slip. It reads 'Termination Notice : Employee Terminated For Not Correctly Repairing Satellite.' You sob.")
         if Triva_Random == 3:
             print("When was the AT&T monopoly broken up?")
             Triva_Answer = input()
-            if Triva_Answer == ' 1982':
+            if Triva_Answer == '1982':
                 print("CORRECT!")
                 print("You return to earth, AND FINALLY GET YOUR PAYCHECK!!! And then you see a pink slip reading 'You have been fired for ' Being bad at repairs, and not repairing the ship fully.' You sob. ")
-                Conculsion()
             else:
                 print("You found no parts. You return home and see the pink slip. It reads 'Termination Notice : Employee Terminated For Not Correctly Repairing Satellite.' You sob.")
-                Conculsion()
-        if Triva_Random == 4 or 5 or 6 or 7 or 8 or 9 or 10:
-            Triva_Answer = input("When was Alexander Graham Bell born?")
-            if Triva_Answer == ' 1847':
-                print("You return to earth, AND FINALLY GET YOUR PAYCHECK!!! And then you see a pink slip reading 'You have been fired for ' Being bad at repairs, and not repairing the ship fully.' You sob. ")
-                Conculsion()
-            else:
-                print("You found no parts. You return home and see the pink slip. It reads 'Termination Notice : Employee Terminated For Not Correctly Repairing Satellite.' You sob.")
-                Conculsion()
-def Conculsion():
-    print("This game was based off of the satellites that would go around Mars in 2030. They are created in order to service customers on Mars and other planets in the growing market that will be the colonists of Mars, the Moon, Venus, and others. The design inculdes a docking port, a small area where a technician can live, solar panels, a long range connecter, a small emergency oxygen producer, and a emergency signal producer. These will help AT&T establish a foothold in a market where no Internet servicer has gone before!")
-START()
+
+
+
+START() 
+
+    
