@@ -12,7 +12,7 @@ class hell_please_save_me_from_coding_lol():
         print("The rocket blows dust everywhere. There's a sea of rust and red. You go out, on a mission")
         time.sleep(0.5)
         print("Your ready for your mission, and your paycheck")
-        help_me.FIND_PART(hell_please_save_me_from_coding_lol)
+        help_me.FIND_PART()
     def FIND_PART(hell_please_save_me_from_coding_lol):
         where_to_find = input("Where do you look for parts? The Junkyard, The Field, or the area near your rocket? USE NO CAPS AND DO use spacebar (where your searching) and then no spacebar.")
         if where_to_find == ' the junkyard':
@@ -25,7 +25,7 @@ class hell_please_save_me_from_coding_lol():
             help_me.TRIVA()
         if where_to_find == ' near my rocket':
             print("You literally see nothing because why would there be something near your rocket?")
-            help_me.FIND_PART(hell_please_save_me_from_coding_lol)
+            help_me.FIND_PART()
     def TRIVA(hell_please_save_me_from_coding_lol):
         print("You search! The parts are near, you can feel it, all you have to do is answer one triva question!")
         time.sleep(0.5)
@@ -38,9 +38,9 @@ class hell_please_save_me_from_coding_lol():
                 time.sleep(0.5)
                 print("You found a part, now you can repair the ship!!")
                 print("You return to earth, AND FINALLY GET YOUR PAYCHECK!!! And then you see a pink slip reading 'You have been fired for ' Being bad at repairs, and not repairing the ship fully.' You sob. ")
-                help_me.Conculsion(hell_please_save_me_from_coding_lol)
+                help_me.Conculsion()
             else:
-                help_me.Conculsion(hell_please_save_me_from_coding_lol)
+                help_me.Conculsion()
                 print("You found no parts. You return home and see the pink slip. It reads 'Termination Notice : Employee Terminated For Not Correctly Repairing Satellite.' You sob.")
             if Triva_Random == 3:
                 print("When was the AT&T monopoly broken up?")
@@ -48,18 +48,18 @@ class hell_please_save_me_from_coding_lol():
             if Triva_Answer == ' 1982':
                 print("CORRECT!")
                 print("You return to earth, AND FINALLY GET YOUR PAYCHECK!!! And then you see a pink slip reading 'You have been fired for ' Being bad at repairs, and not repairing the ship fully.' You sob. ")
-                help_me.Conculsion(hell_please_save_me_from_coding_lol)
+                help_me.Conculsion()
             else:
                 print("You found no parts. You return home and see the pink slip. It reads 'Termination Notice : Employee Terminated For Not Correctly Repairing Satellite.' You sob.")
-                help_me.Conculsion(hell_please_save_me_from_coding_lol)
+                help_me.Conculsion()
             if Triva_Random == 4 or 5 or 6 or 7 or 8 or 9 or 10:
                 Triva_Answer = input("When was Alexander Graham Bell born?")
                 if Triva_Answer == ' 1847':
                     print("You return to earth, AND FINALLY GET YOUR PAYCHECK!!! And then you see a pink slip reading 'You have been fired for ' Being bad at repairs, and not repairing the ship fully.' You sob. ")
-                    help_me.Conculsion(hell_please_save_me_from_coding_lol)
+                    help_me.Conculsion()
                 else:
                     print("You found no parts. You return home and see the pink slip. It reads 'Termination Notice : Employee Terminated For Not Correctly Repairing Satellite.' You sob.")
-                    help_me.Conculsion(hell_please_save_me_from_coding_lol)
+                    help_me.Conculsion()
     def Conculsion(hell_please_save_me_from_coding_lol):
         print("This game was based off of the satellites that would go around Mars in 2030. They are created in order to service customers on Mars and other planets in the growing market that will be the colonists of Mars, the Moon, Venus, and others. The design inculdes a docking port, a small area where a technician can live, solar panels, a long range connecter, a small emergency oxygen producer, and a emergency signal producer. These will help AT&T establish a foothold in a market where no Internet servicer has gone before!")
 help_me = hell_please_save_me_from_coding_lol()
