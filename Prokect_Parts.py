@@ -63,5 +63,5 @@ class hell_please_save_me_from_coding_lol():
     def Conculsion(hell_please_save_me_from_coding_lol):
         print("This game was based off of the satellites that would go around Mars in 2030. They are created in order to service customers on Mars and other planets in the growing market that will be the colonists of Mars, the Moon, Venus, and others. The design inculdes a docking port, a small area where a technician can live, solar panels, a long range connecter, a small emergency oxygen producer, and a emergency signal producer. These will help AT&T establish a foothold in a market where no Internet servicer has gone before!")
 help_me = hell_please_save_me_from_coding_lol()
-help_me.START(hell_please_save_me_from_coding_lol)
+help_me.START()
 
